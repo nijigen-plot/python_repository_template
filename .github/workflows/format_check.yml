@@ -20,4 +20,3 @@ jobs:
       - run: poetry run black . --check
       - run: poety run pflake8
       - run: poetry run python -m py_compile main.py
-
