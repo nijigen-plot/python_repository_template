@@ -21,6 +21,7 @@ line-length = 119
 [tool.flake8]
 max-line-length = 119
 extend-ignore = "E203"
+exclude = ".venv"
 
 [tool.isort]
 profile = "black"
