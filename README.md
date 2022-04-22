@@ -12,3 +12,8 @@ python主体のリポジトリを立てる際のテンプレートとなるリ�
   - プルリクエスト発行時
   - クローズされたプルリクエストの再度オープン時
   - プルリクエストを発行したプルされる側のブランチに対するプッシュをした時
+
+## 使い方
+1. `git clone https://github.com/nijigen-plot/python_repository_template.git`
+2. `pip install poerty`
+3. `poetry install`
