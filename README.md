@@ -17,3 +17,7 @@ python主体のリポジトリを立てる際のテンプレートとなるリ�
 1. `git clone https://github.com/nijigen-plot/python_repository_template.git`
 2. `pip install poerty`
 3. `poetry install`
+
+
+- isortのチェックが走ります。`poetry run isort .`で事前に修正されたし
+- blackのチェックが走ります。`poetry run black .`で事前に修正されたし
