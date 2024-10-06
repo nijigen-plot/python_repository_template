@@ -14,7 +14,11 @@ def setup_logger(name='my_logger', log_file='app.log', level=logging.INFO):
         handler = RotatingFileHandler(log_file, maxBytes=10000000, backupCount=5)
         handler.setLevel(level)
         handler.setFormatter(formatter)
-        
         logger.addHandler(handler)
+
+        console_handler = logging.StreamHandler()
+        console_handler.setLevel(level)
+        console_handler.setFormatter(formatter)
+        logger.addHandler(console_handler)
     
     return logger
